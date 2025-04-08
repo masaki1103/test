@@ -1,0 +1,102 @@
+﻿/* 親テーブルの設定 */
+.parent-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* レスポンシブ */
+    gap: 5px;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    background-color: white;
+    justify-content: center;
+}
+
+/* 親テーブルのセル */
+.parent-cell {
+    border: 2px solid #333;
+    padding: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+
+/* 子テーブル */
+.child-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .child-table td {
+        border: 1px solid #999;
+        padding: 10px;
+        text-align: center;
+        width: 50%;
+    }
+
+/* ボタンのスタイル */
+.btn {
+    width: 80%;
+    padding: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .btn:hover {
+        background-color: #0056b3;
+    }
+
+/* ヘッダースタイル */
+.header {
+    font-size: 1.5rem;
+    background-color: #236fa1;
+    color: white;
+    padding: 1% 1%;
+    text-align: center;
+}
+/* マイナス温度ブロックレベルスタイル */
+.minus_temp_div {
+    font-size: 3rem;
+    color: red;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* プラス温度ブロックレベルスタイル */
+.plus_temp_div {
+    font-size: 3rem;
+    color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* ドア開ブロックレベルスタイル */
+.open_door_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 3rem;
+    color: white;
+    background-color: red;
+}
+/* ドア閉ブロックレベルスタイル */
+.close_door_div {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 3rem;
+    color: white;
+    background-color: lightskyblue;
+}
+/* ボタンブブロックレベルスタイル */
+.button_div {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* ボタンスタイル */
+.button {
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+    padding: 5% 5%;
+}
